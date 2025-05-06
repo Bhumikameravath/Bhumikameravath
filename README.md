@@ -1,16 +1,55 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<!--
-**Bhumikameravath/Bhumikameravath** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <header>
+    <div class="logo">MyLogo</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Features</a>
+          <ul class="submenu">
+            <li><a href="#">Feature 1</a></li>
+            <li><a href="#">Feature 2</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <ul class="submenu">
+            <li><a href="#">Service 1</a></li>
+            <li><a href="#">Service 2</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-Here are some ideas to get you started:
+  <section class="hero">
+    <h1>Welcome to Our Website</h1>
+    <p>Your gateway to awesome services and solutions.</p>
+    <a href="#" class="cta-button">Get Started</a>
+  </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <section class="features">
+    <h2>Key Features</h2>
+    <div class="feature-list">
+      <div class="feature">Fast Performance</div>
+      <div class="feature">Responsive Design</div>
+      <div class="feature">Easy to Use</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyCompany. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+</body>
+</html>
