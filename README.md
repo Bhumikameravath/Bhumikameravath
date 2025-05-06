@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <div class="logo">MyLogo</div>
+    <div class="logo">Bhumika</div>
     <nav>
       <ul class="menu">
         <li><a href="#">Home</a></li>
